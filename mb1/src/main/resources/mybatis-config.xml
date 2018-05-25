@@ -8,7 +8,7 @@
     </settings>
 
     <typeAliases>
-
+        <package name="com.entity"></package>
     </typeAliases>
 
     <!--1. 配置数据库连接信息-->
