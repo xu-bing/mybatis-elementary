@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mb1" />
+        <module name="mb2" />
+        <module name="mb2-crud,param,result" />
+        <module name="mb2-crud-input_output" />
+        <module name="mb3" />
+        <module name="mb3-procedure-dynamic" />
+        <module name="mb4" />
+        <module name="mb4-cascade-annotation-cache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mb1" target="1.5" />
+      <module name="mb2" target="1.5" />
+      <module name="mb2-crud,param,result" target="1.5" />
+      <module name="mb2-crud-input_output" target="1.5" />
+      <module name="mb3" target="1.5" />
+      <module name="mb3-procedure-dynamic" target="1.5" />
+      <module name="mb4" target="1.5" />
+      <module name="mb4-cascade-annotation-cache" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <typeAliases>
+        <package name="com.entity"/>
+    </typeAliases>
+
+    <!-- 配置数据库连接信息 -->
+    <environments default="development">
+        <environment id="development">
+            <!-- 事务管理的模式 -->
+            <transactionManager type="JDBC" />
+
+            <!--配置数据源-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url"
+                          value="jdbc:mysql://localhost:3306/boode?useUnicode=true&amp;characterEncoding=UTF-8" />
+                <property name="username" value="root" />
+                <property name="password" value="root" />
+            </dataSource>
+        </environment>
+    </environments>
+
+
+    <!-- 引入数据映射文件 -->
+    <mappers>
+        <mapper resource="mybatis/mapper/DeptMapper.xml"/>
+    </mappers>
+</configuration>

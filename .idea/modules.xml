@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mb1/mb1.iml" filepath="$PROJECT_DIR$/mb1/mb1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mb2-crud-input_output/mb2-crud-input_output.iml" filepath="$PROJECT_DIR$/mb2-crud-input_output/mb2-crud-input_output.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mb3-procedure-dynamic/mb3-procedure-dynamic.iml" filepath="$PROJECT_DIR$/mb3-procedure-dynamic/mb3-procedure-dynamic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mb4-cascade-annotation-cache/mb4-cascade-annotation-cache.iml" filepath="$PROJECT_DIR$/mb4-cascade-annotation-cache/mb4-cascade-annotation-cache.iml" />
+    </modules>
+  </component>
+</project>
